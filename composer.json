@@ -1,0 +1,24 @@
+{
+    "name": "mrgoon/aliyun-iot",
+	"description": "阿里云物联网套件php调用代码",
+	"keywords": ["sdk", "aliyun", "aliyun-iot"],
+	"version": "dev-master",
+    "require": {
+		"php": ">5.3",
+        "mrgoon/aliyun-sms-sdk": ">=1.1.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mrgoon\\AliIot\\": "src/",
+            "Mrgoon\\Iot\\Request\\V20170420\\": "Iot/Request/V20170420"
+        }
+    },
+    "authors": [
+        {
+            "name": "mrgoon",
+            "email": "mrgoon@foxmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

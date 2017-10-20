@@ -2,7 +2,7 @@
     "name": "mrgoon/aliyun-iot",
 	"description": "阿里云物联网套件php调用代码",
 	"keywords": ["sdk", "aliyun", "aliyun-iot"],
-	"version": "dev-master",
+	"version": "1.0.0",
     "require": {
 		"php": ">5.3",
         "mrgoon/aliyun-sms-sdk": ">=1.1.2"

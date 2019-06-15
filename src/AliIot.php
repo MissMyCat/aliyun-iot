@@ -150,7 +150,7 @@ class AliIot {
     {
         $request = new RegistDeviceRequest();
         $request->setProductKey($productKey);
-        $request->setDeviceName($deviceName);
+        $request->setDeviceNames($deviceName);
         return $this->_client->getAcsResponse($request);
     }
 
